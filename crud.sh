@@ -15,16 +15,16 @@ read valOpcion
 #fi
 case "$valOpcion" in
 	"1")
-	   crear_usuario()
+	   crear_usuario
          ;;
 	"2")
-	   eliminar_usuario()
+	   eliminar_usuario
 	 ;;
 	"3")
-	   editar_usuario()
+	   editar_usuario
 	 ;;
 	"4")
-	   creditos()
+	   creditos
 	 ;;
 	 *)
 	   exit 1
