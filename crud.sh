@@ -1,3 +1,29 @@
+#Definiendolas funciones
+
+# Definiendo la funcion de crear usuario
+fnCrearUsuario(){
+    echo "Crear usuario"
+    exit 1
+}
+# Definiendo la funcion de eliminar usuario
+fnEliminarUsuario(){
+    echo "Eliminar usuario"
+    exit 1
+}
+# Definiendo la funcion de modificar usuario
+fnModificarUsuario(){
+    echo "Modificar usuario"
+    exit 1
+}
+# Definiendo los creditos
+fnCeditos(){
+    echo "Developed by FraGoTe"
+    exit 1
+}
+
+#Fin de Definicion de las funciones
+
+
 echo "Selecciones una opcion"
 echo "1. Crear usuario"
 echo "2. Borrar usuario"
@@ -15,40 +41,18 @@ read valOpcion
 #fi
 case "$valOpcion" in
 	"1")
-	   crear_usuario
+	   fnCrearUsuario
          ;;
 	"2")
-	   eliminar_usuario
+	   fnEliminarUsuario
 	 ;;
 	"3")
-	   editar_usuario
+	   fnEditarUsuario
 	 ;;
 	"4")
-	   creditos
+	   fnCreditos
 	 ;;
 	 *)
 	   exit 1
 	;;
 esac
-
-
-# Definiendo la funcion de crear usuario
-crear_usuario(){
-    echo "Crear usuario"
-    exit 1
-}
-# Definiendo la funcion de eliminar usuario
-eliminar_usuario(){
-    echo "Eliminar usuario"
-    exit 1
-}
-# Definiendo la funcion de modificar usuario
-modificar_usuario(){
-    echo "Modificar usuario"
-    exit 1
-}
-# Definiendo los creditos
-creditos(){
-    echo "Developed by FraGoTe"
-    exit 1
-}
