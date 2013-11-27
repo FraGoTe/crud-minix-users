@@ -1,4 +1,6 @@
-crud-minix-users
-================
+CRUD Users
+==========
 
-Bash for a CRUD of users in Minix
+This is an Script used for a CRUD in Minix.
+
+
