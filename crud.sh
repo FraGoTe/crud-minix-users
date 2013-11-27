@@ -47,7 +47,7 @@ case "$valOpcion" in
 	   fnEliminarUsuario
 	 ;;
 	"3")
-	   fnEditarUsuario
+	   fnModificarUsuario
 	 ;;
 	"4")
 	   fnCreditos
